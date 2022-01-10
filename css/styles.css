@@ -196,7 +196,7 @@ main {
 
 .blockset1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     position: relative;
     justify-content: center;
     margin-left: 0;
@@ -213,7 +213,7 @@ main {
 
 .blockset3 {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     position: relative;
     justify-content: center;
 }
@@ -313,15 +313,13 @@ main {
     height: 492px;
     width: 880px;
     background: #7BAC7F;
-    float: left;
-    margin-right: 20px;
-    margin-left: -10px;
+    float: right;
+    margin-right: -30px;
     margin-top: 2%;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 0;
     border-radius: 20px;
     
 }
@@ -353,23 +351,23 @@ main {
 
 
 .yellow {
-    float: right;
+    float: left;
     background-color: #E9B945;
-    bottom: 19px;
+    bottom: 0;
     box-sizing: border-box;
-    float: right;
+    cursor: pointer;
+    display: block;
+    font-family: Helvetica, sans-serif;
     height: 250px;
     width: 250px;
-    left: 10px;
+    left: -30px;
     line-height: 22px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    opacity: 1;
+    max-width: 100%;
     position: relative;
-    right: 262px;
-    top: 146px;
-    z-index: 2;
+    right: 0px;
+    text-decoration: none;
+    top: 150px;
+    z-index: 10;
     border-radius: 20px;
    
 }
@@ -528,9 +526,8 @@ main {
     height: 492px;
     width: 880px;
     background: #E9B945;
-    float: left;
-    margin-right: 20px;
-    margin-left: -10px;
+    float: right;
+    margin-right: -30px;
     margin-top: 2%;
     text-align: center;
     display: flex;
@@ -558,7 +555,7 @@ main {
 }
 
 .green2 {
-    float: right;
+    float: left;
     background-color: #7BAC7F;
     bottom: 0;
     box-sizing: border-box;
@@ -567,15 +564,14 @@ main {
     font-family: Helvetica, sans-serif;
     height: 250px;
     width: 250px;
-    left: 10px;
+    left: -30px;
     line-height: 22px;
     max-width: 100%;
-    position: absolute;
     position: relative;
     right: 0px;
     text-decoration: none;
     top: 150px;
-    z-index: 1;
+    z-index: 10;
     border-radius: 20px;
     
 }
