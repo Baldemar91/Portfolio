@@ -417,7 +417,7 @@ main {
 }
 
 
-/*Collecting Insights*/
+/*Proto Persona*/
 .blue2 {
   height: 176px;
   width: 600px;
@@ -426,7 +426,7 @@ main {
   margin-top: 50px;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: 60px;;
+  margin-bottom: 40px;
   text-align: left;
   align-items: center;
   justify-content: center;
@@ -464,9 +464,9 @@ main {
 
 #notes{
   margin-top: 40px;
-  margin-left: 5%;
-  margin-bottom: 5px;
-  width: 90%;
+  margin-left: 20%;
+  margin-bottom: 10px;
+  width: 60%;
   padding-bottom: 10px;
 }
 
@@ -494,8 +494,42 @@ main {
   
 }
 
-/*affinity diagram*/
+
+/*User testing notes*/
 #ilike{
+  margin-top: 40px;
+  margin-left: 25%;
+  margin-bottom: 5px;
+  width: 50%;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .Affinity{
+    margin-top: 40px;
+    margin-left: 15px;
+   margin-right: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+  }
+
+  
+}
+
+@media screen and (max-width: 479px) {
+  .Affinity{
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    
+  }
+
+  
+}
+/*Prioritization map*/
+#prioritymap{
   margin-top: 40px;
   margin-left: 25%;
   margin-bottom: 5px;
@@ -563,7 +597,6 @@ main {
 
   
 }
-
 
 /*Competitors*/
 .blue4 {
