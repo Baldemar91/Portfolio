@@ -844,12 +844,23 @@ main {
   }
 }
 
-/*sketches*/
+/*DOL mobile prototype*/
 #testing{
-  margin-left: 18%;
+ margin-top:40px;
+ margin-bottom: 40px;
+  margin-left: 19%;
   width: 60%;
   padding-bottom: 20px;
 }
+
+#doldesktop{
+  margin-top:40px;
+  margin-bottom: 40px;
+   margin-left: 19%;
+   width: 60%;
+   padding-bottom: 20px;
+ }
+
 @media screen and (max-width: 767px) {
   .test {
     margin-top: 160px;
