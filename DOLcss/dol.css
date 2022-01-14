@@ -1143,7 +1143,7 @@ main {
   font-size: 20px;
   height: 40px;
   width: 300px;
-  background: #002B54;
+  background: #0071BC;
   border-radius: 10px;
   filter: drop-shadow(0 0 0.65rem rgba(0, 0, 0, 0.247));
 }
@@ -1178,7 +1178,7 @@ main {
   margin-top: 100px;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: 100px;
+  margin-bottom: 300px;
   text-align: left;
   align-items: center;
   justify-content: center;
