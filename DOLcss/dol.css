@@ -926,32 +926,7 @@ main {
   }
 }
 
-/* big idea prioritization pic*/
-.blue9 {
-  height: 400x;
-  width: 880px;
-  float: left;
-  margin-top: 10px;
-  margin-right: 20px;
-  margin-left: -10px;
-  margin-bottom: 20px;;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  z-index: 0;
-  font-size: 20px;
-}
 
-#big1{
-  width: 100%;
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
-#big2{
-  width: 90%;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
 
 @media screen and (max-width: 767px) {
   .blue9 {
@@ -973,7 +948,7 @@ main {
   }
 }
 
-/*iterate X3*/
+/*Style Tile*/
 .blue10 {
   height: 176px;
   width: 600px;
@@ -982,7 +957,7 @@ main {
   margin-top: 30px;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: 300px;
+  margin-bottom: -30%;
   text-align: left;
   align-items: center;
   justify-content: center;
@@ -999,33 +974,7 @@ main {
 
 }
 
-#improve1{
-  font-size: 18px;
-  font-family: Helvetica, sans-serif;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
 
-#improve2{
-  font-size: 18px;
-  font-family: Helvetica, sans-serif;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-#improve3{
-  font-size: 18px;
-  font-family: Helvetica, sans-serif;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-#improve4{
-  font-size: 18px;
-  font-family: Helvetica, sans-serif;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
 
 
 @media screen and (max-width: 767px) {
@@ -1048,15 +997,15 @@ main {
   }
 }
 
-/* mid fidelity pics*/
+/* UI style tile*/
 .blue11{
   height: 400x;
   width: 880px;
   float: left;
-  margin-top: 400px;
+  margin-top: 15%;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: 30px;;
+  margin-bottom: 60px;;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -1066,7 +1015,7 @@ main {
 
 #mid1{
   width: 95%;
-  margin-top: 100px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
@@ -1108,11 +1057,11 @@ main {
   margin-top: 30px;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: -200px;;
+  margin-bottom: -180px;
   text-align: left;
   align-items: center;
   justify-content: center;
-  z-index: 0;
+  z-index: 1;
   font-size: 18px;
 }
 
@@ -1126,8 +1075,9 @@ main {
 }
 
 #hifi{
-  margin-top: -60px;
-  width: 95%;
+  margin-left: -25%;
+  margin-top: 45px;
+  width: 150%;
 }
 
 #mobilehifi{
@@ -1225,10 +1175,10 @@ main {
   width: 600px;
   line-height: 1.8;
   float: left;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: -300px;
+  margin-bottom: 100px;
   text-align: left;
   align-items: center;
   justify-content: center;
