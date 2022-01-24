@@ -200,8 +200,8 @@ main {
     display: flex;
     flex-direction: row-reverse;
     position: relative;
-    justify-content: center;
-    margin-left: 0;
+    justify-content: left;
+    margin-left: 70px;
     margin-right: 0;
     
 }
@@ -271,10 +271,14 @@ main {
 
 
 /*iamge IDs*/
-#tastee{
-  width: 85%;
- border-radius: 10px;
+#altamoda{
+  width: 100%;
+ border-radius: 0px;
+
 }
+
+
+
 #DOL{
   width: 85%;
   border-radius: 10px;
@@ -316,9 +320,9 @@ main {
 
 /*blockSet1*/
 .green {
-    height: 492px;
-    width: 880px;
-    background: #7BAC7F;
+    height: 770px;
+    width: 600px;
+    background: green;
     float: right;
     margin-right: -30px;
     margin-top: 2%;
@@ -326,8 +330,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
-    
+    border-radius: 0px;
+   
 }
 
 
@@ -358,23 +362,23 @@ main {
 
 .yellow {
     float: left;
-    background-color: #E9B945;
+    background-color: #957dad;
     bottom: 0;
     box-sizing: border-box;
     cursor: pointer;
     display: block;
     font-family: Helvetica, sans-serif;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     left: -30px;
     line-height: 22px;
     max-width: 100%;
     position: relative;
     right: 0px;
     text-decoration: none;
-    top: 150px;
+    top: 40px;
     z-index: 10;
-    border-radius: 20px;
+    border-radius: 0px;
    
 }
 
