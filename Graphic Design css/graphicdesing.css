@@ -245,8 +245,8 @@ main {
   justify-content: center;
   font-size: 16px;
   font-weight: 500;
-  max-width: 200px;
-  margin-left: 25px;
+  max-width: 300px;
+ padding: 20px;
   color: white;
   font-family: Helvetica, sans-serif;
   
@@ -256,7 +256,7 @@ main {
   text-align: center;
   margin-top: 15%;
   font-family: Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight:400;
   text-decoration:none;
   color: white;
@@ -277,6 +277,11 @@ main {
 
 }
 
+#contents{
+    width: 115%;
+   border-radius: 0px;
+  
+  }
 
 
 #DOL{
@@ -322,7 +327,7 @@ main {
 .green {
     height: 770px;
     width: 600px;
-    background: green;
+    background: none;
     float: right;
     margin-right: -30px;
     margin-top: 2%;
@@ -333,6 +338,8 @@ main {
     border-radius: 0px;
    
 }
+
+
 
 
 
