@@ -338,7 +338,7 @@ main {
     background: none;
     float: right;
     margin-right: -30px;
-    margin-top: 2.5%;
+    margin-top: 7.7%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -465,7 +465,7 @@ main {
     float: left;
     margin-right: -3%;
     margin-left: 80px;
-    margin-top: 2.5%;
+    margin-top: 5%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -478,8 +478,8 @@ main {
     background: none;
     float: left;
     margin-right: 5%;
-    margin-left: -12%;
-    margin-top: 18%;
+    margin-left: -47%;
+    margin-top: 59%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -528,13 +528,13 @@ main {
     font-family: Helvetica, sans-serif;
     height: 300px;
     width: 300px;
-    left: 80px;
+    left: 20px;
     line-height: 22px;
     max-width: 100%;
     position: relative;
     right: 0px;
     text-decoration: none;
-    top: 40px;
+    top: 75px;
     z-index: 10;
     border-radius: 0px;
     
