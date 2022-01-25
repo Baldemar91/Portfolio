@@ -127,6 +127,14 @@ a {
     z-index: 0;
 }
 
+#Designer{
+    max-width: 35%;
+    float: right;
+    margin-right: -30px;
+    margin-top: 40px;
+    padding: 5px 5px 5px 5px;
+    
+  }
 @media screen and (max-width: 991px) {
   
   .herospace {
@@ -159,7 +167,8 @@ a {
     text-align: center;
     font-size: 45px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-   
+   margin-top: 80px;
+  margin-left: 32%;
 }
 .bv{
   font-size: 45px;
@@ -167,10 +176,11 @@ a {
 }
 
 
-#uxDesigner{
+#Designer{
   max-width: 50%;
   float: right;
   margin-right: -30px;
+margin-top: 1%;
   padding: 5px 5px 5px 5px;
   
 }
@@ -235,7 +245,7 @@ main {
   margin-top: 40px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 22px;
-  color: white;
+  color: black;
   font-weight: 600;
 
 }
@@ -247,7 +257,7 @@ main {
   font-weight: 500;
   max-width: 300px;
  padding: 20px;
-  color: white;
+  color: black;
   font-family: Helvetica, sans-serif;
   
 }
@@ -259,13 +269,11 @@ main {
   font-size: 18px;
   font-weight:400;
   text-decoration:none;
-  color: white;
+  color: black;
   font-weight: 500;
 }
 
-.viewthis :hover{
-  color: black;
-}
+
 
 
 
@@ -324,13 +332,13 @@ main {
 
 
 /*blockSet1*/
-.green {
+.magazine{
     height: 770px;
     width: 600px;
     background: none;
     float: right;
     margin-right: -30px;
-    margin-top: 2%;
+    margin-top: 2.5%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -344,7 +352,7 @@ main {
 
 
 @media screen and (max-width: 767px) {
-  .green {
+  .magazine {
     position: relative;
     margin-left: 15px;
    margin-right: 15px;
@@ -356,7 +364,7 @@ main {
 }
 
 @media screen and (max-width: 479px) {
-  .green{
+  .magazine{
    
     margin-bottom: 0;
     padding-left: 0;
@@ -367,9 +375,9 @@ main {
 
 
 
-.yellow {
+.purple {
     float: left;
-    background-color: #957dad;
+    background-color:#c9efe6 ;
     bottom: 0;
     box-sizing: border-box;
     cursor: pointer;
@@ -393,7 +401,7 @@ main {
 
 
 @media screen and (max-width: 991px) {
-  .yellow {
+  .Purple {
    max-width: 100%;
    display: block;
    position: relative;
@@ -418,7 +426,7 @@ main {
 
 
 @media screen and (max-width: 767px) {
-  .yellow{
+  .Purple{
     max-width: 100%;
     display: block;
     float: right;
@@ -436,7 +444,7 @@ main {
 }
 
 @media screen and (max-width: 479px) {
-  .yellow{
+  .Purple{
     display: block;
     float: right; 
     height: 100px;
@@ -450,24 +458,48 @@ main {
 
 
 /*blockSet2*/
-.red {
-    height: 492px;
-    width: 880px;
-    background: #9BC7E9;
-    float: right;
-    margin-right: -30px;
-    margin-top: 2%;
+.wine {
+    height: 770px;
+    width: 600px;
+    background: none;
+    float: left;
+    margin-right: -3%;
+    margin-left: 80px;
+    margin-top: 2.5%;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 0px;
+}
+.label {
+    height: 770px;
+    width: 600px;
+    background: none;
+    float: left;
+    margin-right: 5%;
+    margin-left: -12%;
+    margin-top: 18%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px;
 }
 
-
+#wino{
+    width: 100%;
+   border-radius: 0px;
+  
+  }
+  #winee{
+    width: 100%;
+   border-radius: 0px;
+  
+  }
 
 @media screen and (max-width: 767px) {
-  .red {
+  .wine {
     margin-left: 15px;
    margin-right: 15px;
     padding-left: 20px;
@@ -477,7 +509,7 @@ main {
 }
 
 @media screen and (max-width: 479px) {
-  .red {
+  .wine {
     
     margin-bottom: 0;
     padding-left: 0;
@@ -485,28 +517,64 @@ main {
   }
 }
 
-.blue {
-    float: left;
-    background-color: #E38F96;
+
+.babyblue {
+    float: right;
+    background-color:#957dad;
     bottom: 0;
     box-sizing: border-box;
     cursor: pointer;
     display: block;
     font-family: Helvetica, sans-serif;
-    height: 250px;
-    width: 250px;
-    left: -30px;
+    height: 300px;
+    width: 300px;
+    left: 80px;
     line-height: 22px;
     max-width: 100%;
     position: relative;
     right: 0px;
     text-decoration: none;
-    top: 150px;
+    top: 40px;
     z-index: 10;
-    border-radius: 20px;
- 
+    border-radius: 0px;
+    
    
 }
+
+
+.bluetitle{
+    text-align: center;
+    margin-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+  
+  }
+  .bluesummary{
+    margin-top: -19px;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 300px;
+   padding: 20px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    
+  }
+  
+  .blueview {
+    text-align: center;
+    margin-top: 15%;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight:400;
+    text-decoration:none;
+    color: white;
+    font-weight: 500;
+  }
+
 @media screen and (max-width: 991px) {
   .blue  {
    max-width: 100%;
