@@ -607,91 +607,138 @@ main {
 }
 
 /*blockSet3*/
-.yellow2 {
-    height: 492px;
-    width: 880px;
-    background: #E9B945;
+.holy{
+    height: 300px;
+    width: 600px;
+    background: none;
     float: right;
     margin-right: -30px;
-    margin-top: 2%;
+    margin-top: 7.7%;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 0px;
+
 }
 
+
+
+
+
 @media screen and (max-width: 767px) {
-  .yellow2 {
+  .holy{
+    position: relative;
     margin-left: 15px;
    margin-right: 15px;
     padding-left: 20px;
     padding-right: 20px;
+    
   }
+
 }
 
 @media screen and (max-width: 479px) {
-  .yellow2{
-    
+  .holy{
+   
     margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
   }
+
 }
 
-.green2 {
+
+
+.lime {
     float: left;
-    background-color: #7BAC7F;
+    background-color:#d0e6bb ;
     bottom: 0;
     box-sizing: border-box;
     cursor: pointer;
     display: block;
     font-family: Helvetica, sans-serif;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     left: -30px;
     line-height: 22px;
     max-width: 100%;
     position: relative;
     right: 0px;
     text-decoration: none;
-    top: 150px;
+    top: 40px;
     z-index: 10;
-    border-radius: 20px;
-    
+    border-radius: 0px;
+   
 }
 
+
+
+
 @media screen and (max-width: 991px) {
-  .green2 {
+  .lime {
    max-width: 100%;
    display: block;
    position: relative;
    float: right;
-   margin-top: 50px;
+  margin-top: 50px;
+  
    
   }
+  .title{
+    text-align: center;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color:white;
+   
+  
+  }
+
+
+
 }
 
+
 @media screen and (max-width: 767px) {
-  .green2 {
+  .lime{
     max-width: 100%;
     display: block;
     float: right;
    left: -7px;
    height: 100px;
    width: 100px;
-   
+ 
+  }
+  .view{
+    display: none;
+  }
+  .summary{
+    display: none;
   }
 }
 
 @media screen and (max-width: 479px) {
-  .green2 {
+  .lime{
     display: block;
     float: right; 
     height: 100px;
     width: 100px;
+    
   }
+
 }
+
+#church{
+    width: 150%;
+   border-radius: 0px;
+  margin-left: 50%;
+  margin-top: 15%;
+  }
+  
+  
+    
+
 
   /*blockSet4*/
 .blue2 {
