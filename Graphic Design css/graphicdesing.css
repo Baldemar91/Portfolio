@@ -237,6 +237,16 @@ main {
     justify-content: center;
 }
 
+.blockset5 {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    justify-content: left;
+    margin-left: 70px;
+    margin-right: 0;
+    
+}
+
 
 
 
@@ -876,6 +886,149 @@ main {
     margin-top: 24%;
     margin-right: 10%;
     }
+
+
+/*blockset 5*/
+.illustration{
+    height: 770px;
+    width: 600px;
+    background: none;
+    float: right;
+    margin-right: -30px;
+    margin-top: 7.7%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px;
+   
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  .magazine {
+    position: relative;
+    margin-left: 15px;
+   margin-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+
+}
+
+@media screen and (max-width: 479px) {
+  .magazine{
+   
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+
+
+
+.gold{
+    float: left;
+    background-color:#fbecc6 ;
+    bottom: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-family: Helvetica, sans-serif;
+    height: 300px;
+    width: 300px;
+    left: -46.5%;
+    line-height: 22px;
+    max-width: 100%;
+    position: relative;
+    right: 0px;
+    text-decoration: none;
+    top: 40px;
+    z-index: 10;
+    border-radius: 0px;
+   
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+  .Purple {
+   max-width: 100%;
+   display: block;
+   position: relative;
+   float: right;
+  margin-top: 50px;
+  
+   
+  }
+  .title{
+    text-align: center;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color:white;
+   
+  
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+  .Purple{
+    max-width: 100%;
+    display: block;
+    float: right;
+   left: -7px;
+   height: 100px;
+   width: 100px;
+ 
+  }
+  .view{
+    display: none;
+  }
+  .summary{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .Purple{
+    display: block;
+    float: right; 
+    height: 100px;
+    width: 100px;
+    
+  }
+
+}
+
+#one{
+    width: 80%;
+   border-radius: 0px;
+   margin-top: 21%;
+   margin-right: 65%;
+  }
+  #two{
+    width: 80%;
+   border-radius: 0px;
+   margin-top: 21%;
+   margin-right: 38%;
+  }
+  #three{
+    width: 80%;
+   border-radius: 0px;
+  margin-top: 21%;
+  margin-right: 15%;
+  }
 
 /* footer */
 
