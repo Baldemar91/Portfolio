@@ -741,92 +741,141 @@ main {
 
 
   /*blockSet4*/
-.blue2 {
-    height: 492px;
-    width: 880px;
-    background:  #E38F96;
+  .art{
+    height: 770px;
+    width: 600px;
+    background: none;
     float: right;
     margin-right: -30px;
-    margin-top: 2%;
+    margin-top: 7.7%;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 0px;
+   
 }
+
+
+
+
+
 @media screen and (max-width: 767px) {
-  .blue2{
+  .art{
+    position: relative;
     margin-left: 15px;
    margin-right: 15px;
     padding-left: 20px;
     padding-right: 20px;
+    
   }
+
 }
 
 @media screen and (max-width: 479px) {
-  .blue2{
-    
+  .art{
+   
     margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
   }
+
 }
 
-.red2 {
+
+
+.pink{
     float: left;
-    background-color: #9BC7E9 ;
+    background-color:#f8dce8 ;
     bottom: 0;
     box-sizing: border-box;
     cursor: pointer;
     display: block;
     font-family: Helvetica, sans-serif;
-    height: 250px;
-    width: 250px;
-    left: -30px;
+    height: 300px;
+    width: 300px;
+    left: 90px;
     line-height: 22px;
     max-width: 100%;
-    position: absolute;
     position: relative;
     right: 0px;
     text-decoration: none;
-    top: 150px;
+    top: 25%;
     z-index: 10;
-    border-radius: 20px;
-    
+    border-radius: 0px;
+   
 }
 
+
+
+
 @media screen and (max-width: 991px) {
-  .red2  {
+  .Pink{
    max-width: 100%;
    display: block;
    position: relative;
-   float: left;
-   margin-top: 50px;
+   float: right;
+  margin-top: 50px;
+  
    
   }
+  .title{
+    text-align: center;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color:white;
+   
+  
+  }
+
+
+
 }
 
+
 @media screen and (max-width: 767px) {
-  .red2 {
+  .Pink{
     max-width: 100%;
     display: block;
-    float: left;
-   left: 7px;
+    float: right;
+   left: -7px;
    height: 100px;
    width: 100px;
+ 
+  }
+  .view{
+    display: none;
+  }
+  .summary{
+    display: none;
   }
 }
 
 @media screen and (max-width: 479px) {
-  .red2  {
+  .Pink{
     display: block;
-    float: left; 
+    float: right; 
     height: 100px;
     width: 100px;
+    
   }
+
 }
 
-
+#molecular{
+    width: 130%;
+   border-radius: 0px;
+  margin-top: 21.5%;
+  margin-right: 17%;
+  }
+  
+  #spirit{
+      width: 80%;
+     border-radius: 0px;
+    margin-top: 24%;
+    margin-right: 10%;
+    }
 
 /* footer */
 
